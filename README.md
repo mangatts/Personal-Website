@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Website
+
+A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. This website showcases my professional experience, projects, education, and achievements.
+
+## Features
+
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Modern UI**: Clean, professional design with smooth animations
+- **Multiple Sections**:
+  - Home/Welcome page with overview
+  - About Me with education and personal information
+  - Work Experience with detailed career history
+  - Coursework showcasing academic projects and presentations
+  - Personal Projects portfolio
+  - Organizations & Leadership experience
+  - Certifications & Professional development
+  - Contact page with form and social links
+
+## Technologies Used
+
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Responsive Design** - Mobile-first approach
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/mangatts/Personal-Website.git
+cd Personal-Website
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Personal Information
 
-## Learn More
+Update the following files with your personal information:
 
-To learn more about Next.js, take a look at the following resources:
+- `src/app/about/page.tsx` - Personal introduction, education, skills
+- `src/app/work/page.tsx` - Work experience and career history
+- `src/app/coursework/page.tsx` - Academic projects and coursework
+- `src/app/projects/page.tsx` - Personal projects and portfolio
+- `src/app/organizations/page.tsx` - Leadership roles and volunteer work
+- `src/app/certifications/page.tsx` - Professional certifications
+- `src/app/contact/page.tsx` - Contact information and social links
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Styling
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The website uses Tailwind CSS for styling. You can customize:
 
-## Deploy on Vercel
+- Colors in `tailwind.config.js`
+- Global styles in `src/app/globals.css`
+- Component-specific styles in individual page files
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Images
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Add your images to the `public` folder and reference them in your components.
+
+## Deployment
+
+### GitHub Pages
+
+1. Update `next.config.ts` for GitHub Pages:
+```typescript
+const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  }
+}
+```
+
+2. Add deployment script to `package.json`:
+```json
+{
+  "scripts": {
+    "deploy": "next build && next export"
+  }
+}
+```
+
+3. Set up GitHub Actions for automatic deployment (optional)
+
+### Other Platforms
+
+This project can be deployed to:
+- Vercel (recommended for Next.js)
+- Netlify
+- AWS S3 + CloudFront
+- Any static hosting service
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── about/
+│   ├── certifications/
+│   ├── contact/
+│   ├── coursework/
+│   ├── organizations/
+│   ├── projects/
+│   ├── work/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   └── Navigation.tsx
+└── ...
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contact
+
+For questions or suggestions, please contact me through the contact page or open an issue on GitHub.
