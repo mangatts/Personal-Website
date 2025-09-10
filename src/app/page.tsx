@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -10,9 +11,11 @@ export default function Home() {
         <div className="text-center">
           <div className="mb-8">
             <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-600 shadow-lg">
-              <img
+              <Image
                 src="/profile-picture.jpg"
                 alt="Tanveer Mangat"
+                width={192}
+                height={192}
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   // Fallback to a placeholder if image doesn't exist
@@ -26,7 +29,7 @@ export default function Home() {
             <span className="text-blue-600 block">Portfolio</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            I'm Tanveer Mangat, a passionate professional with expertise in technology, 
+            I&apos;m Tanveer Mangat, a passionate professional with expertise in technology, 
             leadership, and continuous learning. Explore my journey through 
             work experience, projects, and achievements.
           </p>
@@ -117,7 +120,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Connect?</h2>
           <p className="text-xl mb-8">
-            Let's discuss opportunities, collaborations, or just have a conversation!
+            Let&apos;s discuss opportunities, collaborations, or just have a conversation!
           </p>
           <Link
             href="/contact"

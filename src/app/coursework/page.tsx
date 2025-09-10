@@ -169,7 +169,7 @@ export default function Coursework() {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center p-4 bg-gray-50 rounded-lg">
                 <div className="text-3xl mb-2">🏆</div>
-                <h3 className="font-semibold text-gray-800">Dean's List</h3>
+                <h3 className="font-semibold text-gray-800">Dean&apos;s List</h3>
                 <p className="text-sm text-gray-600">Multiple semesters</p>
               </div>
               <div className="text-center p-4 bg-gray-50 rounded-lg">

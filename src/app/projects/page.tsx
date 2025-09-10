@@ -9,7 +9,7 @@ export default function Projects() {
           <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Project Portfolio</h2>
             <p className="text-gray-600 leading-relaxed">
-              Here are some of the personal projects I've worked on to expand my skills, 
+              Here are some of the personal projects I&apos;ve worked on to expand my skills, 
               explore new technologies, and solve interesting problems. Each project 
               represents a learning opportunity and a chance to apply my knowledge in 
               practical scenarios.

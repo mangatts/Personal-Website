@@ -33,11 +33,11 @@ export default function Contact() {
           
           {/* Contact Overview */}
           <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Let's Connect</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Let&apos;s Connect</h2>
             <p className="text-gray-600 leading-relaxed">
-              I'm always interested in new opportunities, collaborations, and meaningful conversations. 
+              I&apos;m always interested in new opportunities, collaborations, and meaningful conversations. 
               Whether you have a project in mind, want to discuss technology, or just want to say hello, 
-              I'd love to hear from you. Feel free to reach out through any of the channels below.
+              I&apos;d love to hear from you. Feel free to reach out through any of the channels below.
             </p>
           </section>
 
