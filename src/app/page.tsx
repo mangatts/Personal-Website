@@ -12,7 +12,7 @@ export default function Home() {
           <div className="mb-8 animate-fade-in-up">
             <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-600 shadow-2xl transform hover:scale-105 transition-transform duration-300">
               <Image
-                src="/Tanveer Mangat 3.JPG"
+                src="/Tanveer%20Mangat%203.JPG"
                 alt="Tanveer Mangat"
                 width={192}
                 height={192}
