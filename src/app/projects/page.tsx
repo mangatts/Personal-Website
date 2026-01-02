@@ -9,230 +9,111 @@ export default function Projects() {
           <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Project Portfolio</h2>
             <p className="text-gray-600 leading-relaxed">
-              Here are some of the personal projects I&apos;ve worked on to expand my skills, 
-              explore new technologies, and solve interesting problems. Each project 
-              represents a learning opportunity and a chance to apply my knowledge in 
-              practical scenarios.
+              Here are the projects I&apos;ve worked on to expand my skills, explore new technologies, 
+              and solve interesting problems. Each project represents a learning opportunity and a chance 
+              to apply my knowledge in practical scenarios, particularly in the fields of artificial 
+              intelligence, mobile development, and data analytics.
             </p>
           </section>
 
           {/* Featured Projects */}
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Featured Projects</h2>
-            <div className="grid lg:grid-cols-2 gap-8">
-              {/* Project 1 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Featured Project</h2>
+            <div className="grid lg:grid-cols-1 gap-8">
+              {/* Health & Fitness AI App */}
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden border-t-4 border-blue-500">
                 <div className="h-48 bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
                   <div className="text-white text-center">
-                    <div className="text-4xl mb-2">🚀</div>
-                    <h3 className="text-xl font-semibold">Project Name</h3>
+                    <div className="text-4xl mb-2">🏋️</div>
+                    <h3 className="text-xl font-semibold">Health & Fitness AI App</h3>
+                    <p className="text-sm mt-2 opacity-90">Artificial Intelligence Mentorship Program - UT Dallas</p>
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">E-Commerce Platform</h3>
-                  <p className="text-gray-600 mb-4">
-                    A full-stack e-commerce application with user authentication, product catalog, 
-                    shopping cart, and payment integration. Built with modern web technologies 
-                    and responsive design principles.
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <h3 className="text-xl font-semibold text-gray-800 mb-2">Health & Fitness AI App</h3>
+                      <p className="text-gray-500">September 2024 – December 2024</p>
+                      <p className="text-gray-600 font-medium">Artificial Intelligence Mentorship Program - UT Dallas</p>
+                    </div>
+                    <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                      Featured
+                    </span>
+                  </div>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    Developed an AI-powered Health & Fitness app with personalized workout plans and continuous updates. 
+                    The application features intelligent meal recommendations, comprehensive calorie tracking, and progress 
+                    monitoring capabilities. The AI system continuously adjusts workout plans and recommendations based 
+                    on user performance and goals.
                   </p>
+                  <div className="mb-4">
+                    <h4 className="font-semibold text-gray-700 mb-2">Key Features:</h4>
+                    <ul className="list-disc list-inside space-y-1 text-gray-600 mb-3">
+                      <li>Personalized workout plans powered by AI with continuous updates</li>
+                      <li>User-friendly calorie tracking dashboard with real-time visualization</li>
+                      <li>Meal recommendation system integrated with APIs</li>
+                      <li>Progress tracking features for workouts, calories, and goals</li>
+                      <li>AI-driven adjustments based on user performance</li>
+                    </ul>
+                  </div>
                   <div className="mb-4">
                     <h4 className="font-semibold text-gray-700 mb-2">Technologies Used:</h4>
                     <div className="flex flex-wrap gap-2">
-                      {['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'].map((tech) => (
-                        <span key={tech} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">
+                      {['Flutter', 'TensorFlow', 'AWS', 'MySQL', 'Chart.js', 'Python'].map((tech) => (
+                        <span key={tech} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
                           {tech}
                         </span>
                       ))}
                     </div>
                   </div>
-                  <div className="flex space-x-4">
-                    <a href="#" className="text-blue-600 hover:underline font-medium">
-                      Live Demo
-                    </a>
-                    <a href="#" className="text-gray-600 hover:underline font-medium">
-                      GitHub
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* Project 2 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="h-48 bg-gradient-to-r from-green-500 to-teal-600 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="text-4xl mb-2">📱</div>
-                    <h3 className="text-xl font-semibold">Mobile App</h3>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Task Management App</h3>
-                  <p className="text-gray-600 mb-4">
-                    A cross-platform mobile application for task and project management. 
-                    Features include team collaboration, deadline tracking, and progress 
-                    visualization with offline capabilities.
-                  </p>
                   <div className="mb-4">
-                    <h4 className="font-semibold text-gray-700 mb-2">Technologies Used:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {['React Native', 'Firebase', 'Redux', 'Expo'].map((tech) => (
-                        <span key={tech} className="bg-green-100 text-green-800 px-2 py-1 rounded text-sm">
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="flex space-x-4">
-                    <a href="#" className="text-blue-600 hover:underline font-medium">
-                      App Store
-                    </a>
-                    <a href="#" className="text-gray-600 hover:underline font-medium">
-                      GitHub
-                    </a>
+                    <h4 className="font-semibold text-gray-700 mb-2">Technical Highlights:</h4>
+                    <ul className="list-disc list-inside space-y-1 text-gray-600">
+                      <li>Implemented AI models using TensorFlow for personalized recommendations</li>
+                      <li>Built mobile application using Flutter for cross-platform compatibility</li>
+                      <li>Designed and managed MySQL database for data storage and management</li>
+                      <li>Integrated AWS services for cloud infrastructure and scalability</li>
+                      <li>Created real-time data visualization using Chart.js for tracking dashboard</li>
+                      <li>Developed API integrations for meal recommendations and nutrition data</li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </section>
 
-          {/* All Projects Grid */}
+          {/* Additional Projects Section */}
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">All Projects</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {/* Project 3 */}
-              <div className="bg-white rounded-lg shadow-lg p-6">
-                <div className="text-3xl mb-4 text-center">🌐</div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Web Scraper</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  Python-based web scraper for collecting and analyzing data from various sources.
-                </p>
-                <div className="flex flex-wrap gap-1 mb-4">
-                  {['Python', 'BeautifulSoup', 'Pandas'].map((tech) => (
-                    <span key={tech} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-                <a href="#" className="text-blue-600 hover:underline text-sm font-medium">
-                  View Code →
-                </a>
-              </div>
-
-              {/* Project 4 */}
-              <div className="bg-white rounded-lg shadow-lg p-6">
-                <div className="text-3xl mb-4 text-center">🤖</div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Chatbot</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  AI-powered chatbot using natural language processing for customer support.
-                </p>
-                <div className="flex flex-wrap gap-1 mb-4">
-                  {['Python', 'TensorFlow', 'Flask'].map((tech) => (
-                    <span key={tech} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-                <a href="#" className="text-blue-600 hover:underline text-sm font-medium">
-                  View Code →
-                </a>
-              </div>
-
-              {/* Project 5 */}
-              <div className="bg-white rounded-lg shadow-lg p-6">
-                <div className="text-3xl mb-4 text-center">📊</div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Data Visualization</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  Interactive dashboard for visualizing complex datasets with real-time updates.
-                </p>
-                <div className="flex flex-wrap gap-1 mb-4">
-                  {['D3.js', 'React', 'Node.js'].map((tech) => (
-                    <span key={tech} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-                <a href="#" className="text-blue-600 hover:underline text-sm font-medium">
-                  View Demo →
-                </a>
-              </div>
-
-              {/* Project 6 */}
-              <div className="bg-white rounded-lg shadow-lg p-6">
-                <div className="text-3xl mb-4 text-center">🔐</div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Password Manager</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  Secure password management application with encryption and cloud sync.
-                </p>
-                <div className="flex flex-wrap gap-1 mb-4">
-                  {['Electron', 'Node.js', 'SQLite'].map((tech) => (
-                    <span key={tech} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-                <a href="#" className="text-blue-600 hover:underline text-sm font-medium">
-                  View Code →
-                </a>
-              </div>
-
-              {/* Project 7 */}
-              <div className="bg-white rounded-lg shadow-lg p-6">
-                <div className="text-3xl mb-4 text-center">🎮</div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Game Development</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  2D platformer game built with modern game development practices.
-                </p>
-                <div className="flex flex-wrap gap-1 mb-4">
-                  {['Unity', 'C#', 'Blender'].map((tech) => (
-                    <span key={tech} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-                <a href="#" className="text-blue-600 hover:underline text-sm font-medium">
-                  Play Game →
-                </a>
-              </div>
-
-              {/* Project 8 */}
-              <div className="bg-white rounded-lg shadow-lg p-6">
-                <div className="text-3xl mb-4 text-center">☁️</div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Cloud Migration</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  Automated cloud infrastructure setup and deployment pipeline.
-                </p>
-                <div className="flex flex-wrap gap-1 mb-4">
-                  {['AWS', 'Terraform', 'Docker'].map((tech) => (
-                    <span key={tech} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-                <a href="#" className="text-blue-600 hover:underline text-sm font-medium">
-                  View Code →
-                </a>
-              </div>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Additional Work & Projects</h2>
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <p className="text-gray-600 leading-relaxed">
+                In addition to my featured project, I have worked on various technical projects and initiatives 
+                throughout my academic and professional journey. These include data analytics tools, automation 
+                scripts, and educational programming projects developed during my time as a Programming Instructor 
+                and through various coursework and internships.
+              </p>
+              <p className="text-gray-600 leading-relaxed mt-4">
+                I am continuously working on new projects to expand my skill set and explore emerging technologies 
+                in AI, data analytics, and software development. Check back soon for updates on new projects!
+              </p>
             </div>
           </section>
 
           {/* Project Statistics */}
           <section className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Project Statistics</h2>
-            <div className="grid md:grid-cols-4 gap-6">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
-                <p className="text-gray-600">Projects Completed</p>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Project Highlights</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="text-center p-4 bg-blue-50 rounded-lg">
+                <div className="text-3xl font-bold text-blue-600 mb-2">AI-Powered</div>
+                <p className="text-gray-600">Machine Learning Integration</p>
               </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-green-600 mb-2">8</div>
-                <p className="text-gray-600">Technologies Mastered</p>
+              <div className="text-center p-4 bg-green-50 rounded-lg">
+                <div className="text-3xl font-bold text-green-600 mb-2">Full-Stack</div>
+                <p className="text-gray-600">Mobile & Backend Development</p>
               </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">5</div>
-                <p className="text-gray-600">Live Applications</p>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-orange-600 mb-2">1000+</div>
-                <p className="text-gray-600">Lines of Code</p>
+              <div className="text-center p-4 bg-purple-50 rounded-lg">
+                <div className="text-3xl font-bold text-purple-600 mb-2">Cloud-Based</div>
+                <p className="text-gray-600">AWS Infrastructure</p>
               </div>
             </div>
           </section>

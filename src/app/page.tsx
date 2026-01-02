@@ -5,42 +5,43 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="text-center">
-          <div className="mb-8">
-            <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-600 shadow-lg">
+          <div className="mb-8 animate-fade-in-up">
+            <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-600 shadow-2xl transform hover:scale-105 transition-transform duration-300">
               <Image
-                src="/profile-picture.jpg"
+                src="/Tanveer Mangat 3.JPG"
                 alt="Tanveer Mangat"
                 width={192}
                 height={192}
                 className="w-full h-full object-cover"
-                onError={(e) => {
-                  // Fallback to a placeholder if image doesn't exist
-                  e.currentTarget.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='16' fill='%236b7280' text-anchor='middle' dy='.3em'%3EAdd your photo here%3C/text%3E%3C/svg%3E";
-                }}
+                priority
               />
             </div>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
+          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 animate-fade-in-up">
             Welcome to My
-            <span className="text-blue-600 block">Portfolio</span>
+            <span className="text-blue-600 block bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+              Portfolio
+            </span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            I&apos;m Tanveer Mangat, a passionate professional with expertise in technology, 
-            leadership, and continuous learning. Explore my journey through 
-            work experience, projects, and achievements.
+          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in-up">
+            I&apos;m <span className="font-semibold text-gray-800">Tanveer Mangat</span>, a Computer Information Systems and Technology student 
+            at UT Dallas with a passion for data analytics, AI development, and technology education. 
+            With experience in risk analytics, programming instruction, and IT systems, I bring a unique 
+            blend of technical expertise and leadership. Explore my journey through work experience, 
+            projects, and achievements.
           </p>
           
           {/* Social Links */}
-          <div className="flex justify-center gap-6 mb-8">
+          <div className="flex justify-center gap-6 mb-8 animate-fade-in-up">
             <a
               href="https://github.com/mangatts"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
+              className="text-gray-600 hover:text-gray-900 transition-all duration-300 transform hover:scale-110 hover:shadow-lg p-2 rounded-full bg-white"
               aria-label="GitHub Profile"
             >
               <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -51,7 +52,7 @@ export default function Home() {
               href="https://linkedin.com/in/tmsingh"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
+              className="text-gray-600 hover:text-blue-600 transition-all duration-300 transform hover:scale-110 hover:shadow-lg p-2 rounded-full bg-white"
               aria-label="LinkedIn Profile"
             >
               <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -60,16 +61,16 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
             <Link
               href="/about"
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+              className="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Learn More About Me
             </Link>
             <Link
               href="/contact"
-              className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors"
+              className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Get In Touch
             </Link>
@@ -80,35 +81,35 @@ export default function Home() {
       {/* Quick Overview Section */}
       <section className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg text-center transform hover:scale-105 transition-all duration-300 hover:shadow-2xl border-t-4 border-blue-500">
             <div className="text-4xl mb-4">💼</div>
-            <h3 className="text-xl font-semibold mb-2">Work Experience</h3>
-            <p className="text-gray-600">
+            <h3 className="text-xl font-semibold mb-2 text-gray-800">Work Experience</h3>
+            <p className="text-gray-600 mb-4">
               Professional journey and career achievements
             </p>
-            <Link href="/work" className="text-blue-600 hover:underline mt-2 inline-block">
+            <Link href="/work" className="text-blue-600 hover:text-blue-700 font-semibold mt-2 inline-block transition-colors">
               View Details →
             </Link>
           </div>
           
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg text-center transform hover:scale-105 transition-all duration-300 hover:shadow-2xl border-t-4 border-green-500">
             <div className="text-4xl mb-4">🎓</div>
-            <h3 className="text-xl font-semibold mb-2">Education & Coursework</h3>
-            <p className="text-gray-600">
+            <h3 className="text-xl font-semibold mb-2 text-gray-800">Education & Coursework</h3>
+            <p className="text-gray-600 mb-4">
               Academic background and project portfolio
             </p>
-            <Link href="/coursework" className="text-blue-600 hover:underline mt-2 inline-block">
+            <Link href="/coursework" className="text-green-600 hover:text-green-700 font-semibold mt-2 inline-block transition-colors">
               View Details →
             </Link>
           </div>
           
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg text-center transform hover:scale-105 transition-all duration-300 hover:shadow-2xl border-t-4 border-purple-500">
             <div className="text-4xl mb-4">🚀</div>
-            <h3 className="text-xl font-semibold mb-2">Projects</h3>
-            <p className="text-gray-600">
+            <h3 className="text-xl font-semibold mb-2 text-gray-800">Projects</h3>
+            <p className="text-gray-600 mb-4">
               Personal and professional project showcase
             </p>
-            <Link href="/projects" className="text-blue-600 hover:underline mt-2 inline-block">
+            <Link href="/projects" className="text-purple-600 hover:text-purple-700 font-semibold mt-2 inline-block transition-colors">
               View Details →
             </Link>
           </div>
@@ -116,15 +117,15 @@ export default function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="bg-blue-600 text-white py-16">
+      <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Connect?</h2>
-          <p className="text-xl mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Connect?</h2>
+          <p className="text-xl mb-8 max-w-2xl mx-auto">
             Let&apos;s discuss opportunities, collaborations, or just have a conversation!
           </p>
           <Link
             href="/contact"
-            className="bg-white text-blue-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
+            className="bg-white text-blue-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-block"
           >
             Contact Me Today
           </Link>

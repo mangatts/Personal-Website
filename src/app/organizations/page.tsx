@@ -22,198 +22,111 @@ export default function Organizations() {
             <div className="space-y-6">
               <div className="border-l-4 border-blue-500 pl-6">
                 <div className="flex items-start justify-between mb-2">
-                  <h3 className="text-xl font-semibold text-gray-800">President</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">Workshop Committee Member</h3>
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
                     Current
                   </span>
                 </div>
-                <p className="text-lg text-gray-600 font-medium">Student Technology Association</p>
-                <p className="text-gray-500 mb-3">2023 - Present</p>
-                <ul className="list-disc list-inside space-y-1 text-gray-600">
-                  <li>Lead a team of 15+ executive board members and 200+ active members</li>
-                  <li>Organize monthly tech talks, workshops, and networking events</li>
-                  <li>Manage annual budget of $50,000+ for events and initiatives</li>
-                  <li>Collaborate with industry partners to secure sponsorships and internships</li>
-                  <li>Represent the organization at university-wide meetings and conferences</li>
-                </ul>
+                <p className="text-lg text-gray-600 font-medium">CIS Tech Leadership Council</p>
+                <p className="text-gray-500 mb-3">September 2025 – Present</p>
+                <p className="text-gray-600">
+                  Active member of the Workshop Committee, contributing to the planning and execution of technical 
+                  workshops and educational events for the Computer Information Systems community.
+                </p>
               </div>
 
               <div className="border-l-4 border-green-500 pl-6">
                 <div className="flex items-start justify-between mb-2">
-                  <h3 className="text-xl font-semibold text-gray-800">Mentor</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">Volunteer</h3>
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
                     Current
                   </span>
                 </div>
-                <p className="text-lg text-gray-600 font-medium">First-Year Student Mentorship Program</p>
-                <p className="text-gray-500 mb-3">2023 - Present</p>
-                <ul className="list-disc list-inside space-y-1 text-gray-600">
-                  <li>Mentor 8 first-year students in academic and career development</li>
-                  <li>Conduct weekly one-on-one meetings and group activities</li>
-                  <li>Provide guidance on course selection, study strategies, and career planning</li>
-                  <li>Organize social events to build community among mentees</li>
-                </ul>
+                <p className="text-lg text-gray-600 font-medium">Professional Program in Computer Information Systems & Technology</p>
+                <p className="text-gray-500 mb-3">August 2025 – Present</p>
+                <p className="text-gray-600">
+                  Volunteering with the professional program to support students and contribute to program initiatives 
+                  and community building within the Computer Information Systems & Technology department.
+                </p>
               </div>
-            </div>
-          </section>
 
-          {/* Previous Leadership Roles */}
-          <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Previous Leadership Roles</h2>
-            <div className="space-y-6">
               <div className="border-l-4 border-purple-500 pl-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">Vice President of Events</h3>
-                <p className="text-lg text-gray-600 font-medium">Computer Science Society</p>
-                <p className="text-gray-500 mb-3">2022 - 2023</p>
-                <ul className="list-disc list-inside space-y-1 text-gray-600">
-                  <li>Planned and executed 12+ major events including hackathons and career fairs</li>
-                  <li>Coordinated with 20+ industry professionals for guest speaker series</li>
-                  <li>Managed event logistics, venue booking, and catering arrangements</li>
-                  <li>Increased event attendance by 40% through improved marketing strategies</li>
-                </ul>
+                <div className="flex items-start justify-between mb-2">
+                  <h3 className="text-xl font-semibold text-gray-800">Education Officer</h3>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
+                    Current
+                  </span>
+                </div>
+                <p className="text-lg text-gray-600 font-medium">Helping Kids Succeed through the Texas Rangers</p>
+                <p className="text-gray-500 mb-3">January 2025 – Present</p>
+                <p className="text-gray-600">
+                  Serving as Education Officer, focusing on educational initiatives and programs that help children 
+                  succeed through various educational and mentorship activities.
+                </p>
               </div>
 
               <div className="border-l-4 border-orange-500 pl-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">Treasurer</h3>
-                <p className="text-lg text-gray-600 font-medium">Volunteer Service Organization</p>
-                <p className="text-gray-500 mb-3">2021 - 2022</p>
-                <ul className="list-disc list-inside space-y-1 text-gray-600">
-                  <li>Managed organization budget of $25,000+ for community service projects</li>
-                  <li>Tracked expenses and prepared monthly financial reports</li>
-                  <li>Coordinated fundraising events that raised $15,000+ for local charities</li>
-                  <li>Maintained relationships with donors and sponsors</li>
-                </ul>
-              </div>
-
-              <div className="border-l-4 border-red-500 pl-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">Team Lead</h3>
-                <p className="text-lg text-gray-600 font-medium">Community Outreach Program</p>
-                <p className="text-gray-500 mb-3">2020 - 2021</p>
-                <ul className="list-disc list-inside space-y-1 text-gray-600">
-                  <li>Led a team of 10 volunteers in weekly community service activities</li>
-                  <li>Organized food drives, clothing donations, and educational workshops</li>
-                  <li>Coordinated with local shelters and community centers</li>
-                  <li>Developed volunteer training programs and orientation materials</li>
-                </ul>
+                <div className="flex items-start justify-between mb-2">
+                  <h3 className="text-xl font-semibold text-gray-800">Member</h3>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                    Previous
+                  </span>
+                </div>
+                <p className="text-lg text-gray-600 font-medium">Association for Informational Systems</p>
+                <p className="text-gray-500 mb-3">January 2025 – September 2025</p>
+                <p className="text-gray-600">
+                  Active member of the Association for Informational Systems, participating in professional development 
+                  activities, networking events, and staying current with industry trends and best practices.
+                </p>
               </div>
             </div>
           </section>
 
-          {/* Volunteer Experience */}
-          <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Volunteer Experience</h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Local Food Bank</h3>
-                <p className="text-gray-600 text-sm mb-3">
-                  Weekly volunteer helping with food sorting, distribution, and community outreach.
-                </p>
-                <p className="text-sm text-gray-500">2020 - Present | 200+ hours</p>
-              </div>
-
-              <div className="border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">STEM Education Initiative</h3>
-                <p className="text-gray-600 text-sm mb-3">
-                  Teaching coding and computer science concepts to underprivileged youth.
-                </p>
-                <p className="text-sm text-gray-500">2021 - Present | 150+ hours</p>
-              </div>
-
-              <div className="border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Environmental Cleanup</h3>
-                <p className="text-gray-600 text-sm mb-3">
-                  Monthly beach and park cleanup events with local environmental groups.
-                </p>
-                <p className="text-sm text-gray-500">2019 - Present | 100+ hours</p>
-              </div>
-
-              <div className="border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Senior Center Activities</h3>
-                <p className="text-gray-600 text-sm mb-3">
-                  Organizing technology workshops and social activities for elderly residents.
-                </p>
-                <p className="text-sm text-gray-500">2022 - Present | 80+ hours</p>
-              </div>
-            </div>
-          </section>
-
-          {/* Awards & Recognition */}
-          <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Awards & Recognition</h2>
-            <div className="space-y-4">
-              <div className="flex items-start space-x-4">
-                <div className="w-3 h-3 bg-yellow-500 rounded-full mt-2"></div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-800">Outstanding Student Leader Award</h3>
-                  <p className="text-gray-600">University Student Government Association</p>
-                  <p className="text-sm text-gray-500">2023</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className="w-3 h-3 bg-blue-500 rounded-full mt-2"></div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-800">Volunteer of the Year</h3>
-                  <p className="text-gray-600">Local Community Service Center</p>
-                  <p className="text-sm text-gray-500">2022</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className="w-3 h-3 bg-green-500 rounded-full mt-2"></div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-800">Excellence in Mentorship</h3>
-                  <p className="text-gray-600">Student Affairs Office</p>
-                  <p className="text-sm text-gray-500">2023</p>
-                </div>
-              </div>
-            </div>
-          </section>
 
           {/* Skills Developed */}
           <section className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Leadership Skills Developed</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Skills Developed Through Involvement</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h3 className="text-lg font-semibold text-gray-700 mb-3">Management & Organization</h3>
+                <h3 className="text-lg font-semibold text-gray-700 mb-3">Leadership & Organization</h3>
                 <ul className="space-y-2">
                   <li className="flex items-center text-gray-600">
                     <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                    Team Leadership & Management
+                    Workshop Planning & Coordination
                   </li>
                   <li className="flex items-center text-gray-600">
                     <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                    Event Planning & Coordination
+                    Educational Program Development
                   </li>
                   <li className="flex items-center text-gray-600">
                     <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                    Budget Management
+                    Community Engagement
                   </li>
                   <li className="flex items-center text-gray-600">
                     <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                    Project Management
+                    Professional Networking
                   </li>
                 </ul>
               </div>
               
               <div>
-                <h3 className="text-lg font-semibold text-gray-700 mb-3">Communication & Interpersonal</h3>
+                <h3 className="text-lg font-semibold text-gray-700 mb-3">Communication & Service</h3>
                 <ul className="space-y-2">
                   <li className="flex items-center text-gray-600">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                    Public Speaking
+                    Educational Leadership
                   </li>
                   <li className="flex items-center text-gray-600">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                    Mentoring & Coaching
+                    Volunteer Coordination
                   </li>
                   <li className="flex items-center text-gray-600">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                    Conflict Resolution
+                    Youth Mentorship
                   </li>
                   <li className="flex items-center text-gray-600">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                    Community Building
+                    Community Service
                   </li>
                 </ul>
               </div>
